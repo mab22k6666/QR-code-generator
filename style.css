@@ -1,0 +1,66 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+  background-color: aliceblue;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+input {
+  padding: 5px 5px;
+  font-size: 1rem;
+  font-weight: 500;
+  outline: none;
+  border: 1.8px solid gray;
+  border-radius: 6px;
+  color: rgb(73, 72, 72);
+  width: 300px;
+}
+input:focus {
+  border: 1.8px solid rgb(105, 105, 237);
+}
+#img {
+  margin-top: 5px;
+  padding: 10px 0;
+  width: 200px;
+  height: 200px;
+}
+.container-btn {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  width: 300px;
+}
+button {
+  padding: 6px 10px;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 500;
+  outline: none;
+  border-radius: 7px;
+  border: none;
+  margin-top: 5px;
+}
+
+#pastebtn {
+  background-color: #93da97;
+}
+#deletebtn {
+  background-color: #ff9149;
+}
+#btn {
+  background-color: #60b5ff;
+}
+#downloadBtn {
+  background-color: #2196f3;
+  color: white;
+  width: 200px;
+}
+#main-Img {
+  display: flex;
+  flex-direction: column-reverse;
+}
